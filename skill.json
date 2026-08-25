@@ -1,0 +1,41 @@
+{
+  "name": "genpark-typographic-graphic-design-layout-synthesizer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Typographic graphic design synthesizer rendering accurate text typography, color palettes, and vector layouts.",
+  "author": "genpark",
+  "category": "graphic-design",
+  "tags": [
+    "typography",
+    "graphic-design",
+    "ideogram-2",
+    "poster-synthesis",
+    "vector-layout"
+  ],
+  "inputs": {
+    "headline_text": {
+      "type": "string"
+    },
+    "design_theme": {
+      "type": "string"
+    },
+    "output_dpi": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "graphic_job_id": {
+      "type": "string"
+    },
+    "headline_rendered": {
+      "type": "string"
+    },
+    "lettering_kerning_accuracy_pct": {
+      "type": "number"
+    },
+    "rendered_print_ready_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
